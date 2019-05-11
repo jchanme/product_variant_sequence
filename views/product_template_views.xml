@@ -8,7 +8,7 @@
             <field name="inherit_id" ref="product_template_only_form_view"/>
             <field name="arch" type="xml">
                 <xpath expr="//field[@name='attribute_id']" position="before">
-                    <field name="sequence" widge="handle"/>
+                    <field name="sequence" widget="handle"/>
                 </xpath>
             </field>
         </record>
